@@ -1,0 +1,15 @@
+.container {
+  background-color: yellow;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  background-color: green;
+  border: 1px solid white;
+  color: white;
+}
+.item:nth-child(3) {
+  flex: 1;
+}
